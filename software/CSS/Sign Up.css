@@ -1,0 +1,109 @@
+.fs {
+    display: flex;
+    flex-direction: column;
+    margin-left:350px;
+    margin-right:600px;
+    margin-top:90px;
+    border: solid;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-right: 60px;
+}
+
+.ggg{
+    text-align:center;
+}
+
+.header {
+    margin-left: 400px ;
+    font-size:45px;
+    margin-top:180px;
+    font-style: italic;
+    
+}
+
+.bdy{
+    
+    background-size: 500px 100%;
+    background-position:bottom right;
+    background-repeat: no-repeat;
+}
+
+.txt,
+.user{
+    font-size: 25px;
+}
+
+.txtbox,
+.txtbox2{
+    width: 180px;
+    height: 35px;
+    border-style:solid ;
+    border-radius: 5px;
+}
+
+
+.btn{
+    width: 150px;
+    font-size: 25px;
+    position: relative;
+    left: 105px;
+    background-color:#80613c;
+    border-style: none;
+    color: aliceblue;
+    border-radius: 30px;
+    padding:16px ;
+    cursor: pointer;
+    
+}
+
+.chkbox{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.cnfrm{
+    font-size:20px ;
+}
+
+.sidenav {
+
+    height: 100%; 
+    width: 250px;
+    position: fixed;  
+    top: 0; 
+    left: 0;
+    background-color:#5C4033; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+
+  }
+
+.sidenav a {
+    
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-decoration:none;
+    font-size: 25px;
+    color: #fffdfd;
+    display: block;
+    cursor: pointer;
+    
+  }
+.logo{
+    width :110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
